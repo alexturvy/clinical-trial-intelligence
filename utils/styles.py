@@ -272,7 +272,7 @@ hr {
     border: 1px solid #e4eaf0;
     border-radius: 10px;
     padding: 1.4rem 1.2rem;
-    height: 100%;
+    min-height: 280px;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -350,6 +350,25 @@ hr {
     margin-top: 1rem;
 }
 
+/* Byline — top right (inner pages) */
+.byline {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.78rem;
+    color: #8899a6;
+    text-align: right;
+    letter-spacing: 0.01em;
+}
+
+/* Byline — home page (larger) */
+.byline-home {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.92rem;
+    color: #5a6c7d;
+    text-align: right;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+}
+
 /* ================================================================
    SPACING & RHYTHM
    ================================================================ */
@@ -384,6 +403,15 @@ def hero_title(main: str, subdued: str):
     st.markdown(
         f'<h1 class="hero-title">{main}<br>'
         f'<span class="subdued">{subdued}</span></h1>',
+        unsafe_allow_html=True,
+    )
+
+
+def byline(home: bool = False):
+    """Render 'Built by Alex Turvy, PhD' top-right. Larger on home page."""
+    cls = "byline-home" if home else "byline"
+    st.markdown(
+        f'<p class="{cls}">Built by Alex Turvy, PhD</p>',
         unsafe_allow_html=True,
     )
 

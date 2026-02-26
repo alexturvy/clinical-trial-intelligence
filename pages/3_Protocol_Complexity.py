@@ -10,10 +10,11 @@ from utils.data_loader import load_trials, load_protocols, get_sample_trials, lo
 from utils.charts import LAYOUT_DEFAULTS, COLORS, TA_COLORS
 from utils.text_features import extract_text_features
 from utils.nlp_analyzer import score_criteria
-from utils.styles import inject_custom_css, section_label
+from utils.styles import inject_custom_css, section_label, byline
 
 st.set_page_config(page_title="Protocol Complexity & NLP", page_icon="\U0001F9EA", layout="wide")
 inject_custom_css()
+byline()
 section_label("NLP Feature Engineering + Claude API")
 st.title("Protocol Risk Profiling: 16 Text Features That Predict Delay")
 

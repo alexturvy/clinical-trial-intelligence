@@ -5,10 +5,11 @@ from utils.charts import (
     trial_volume_trend, phase_distribution, geographic_map,
     enrollment_histogram, sponsor_treemap,
 )
-from utils.styles import inject_custom_css, section_label
+from utils.styles import inject_custom_css, section_label, byline
 
 st.set_page_config(page_title="Trial Landscape", page_icon="\U0001F30D", layout="wide")
 inject_custom_css()
+byline()
 section_label("Exploratory Data Analysis")
 st.title("Trial Landscape Across 7 Therapeutic Areas")
 

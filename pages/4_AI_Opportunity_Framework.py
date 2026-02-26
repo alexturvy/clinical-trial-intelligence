@@ -7,10 +7,11 @@ import plotly.express as px
 
 from utils.charts import opportunity_matrix, LAYOUT_DEFAULTS, COLORS
 from utils.data_loader import load_trials
-from utils.styles import inject_custom_css, section_label
+from utils.styles import inject_custom_css, section_label, byline
 
 st.set_page_config(page_title="AI Opportunity Framework", page_icon="\U0001F916", layout="wide")
 inject_custom_css()
+byline()
 section_label("Strategic Framework")
 st.title("AI Opportunity Framework: 16 Applications Across 5 CRO Functions")
 

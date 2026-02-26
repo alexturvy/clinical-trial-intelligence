@@ -7,10 +7,11 @@ import plotly.express as px
 
 from utils.data_loader import load_trials
 from utils.charts import duration_by_phase, duration_by_ta, LAYOUT_DEFAULTS, COLORS
-from utils.styles import inject_custom_css, section_label
+from utils.styles import inject_custom_css, section_label, byline
 
 st.set_page_config(page_title="Duration Prediction", page_icon="\U0001F4CA", layout="wide")
 inject_custom_css()
+byline()
 section_label("Machine Learning Investigation")
 st.title("Predicting Trial Duration: Structured Data vs. Protocol Text")
 

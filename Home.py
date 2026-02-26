@@ -3,7 +3,7 @@ from pathlib import Path
 
 import streamlit as st
 from utils.data_loader import load_trials, load_protocols
-from utils.styles import inject_custom_css, hero_title, card_html
+from utils.styles import inject_custom_css, hero_title, card_html, byline
 
 st.set_page_config(
     page_title="Clinical Trial Intelligence Platform",
@@ -12,6 +12,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 inject_custom_css()
+byline(home=True)
 
 # --- Load data for dynamic stats ---
 df = load_trials()
