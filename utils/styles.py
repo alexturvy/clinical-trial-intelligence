@@ -20,9 +20,16 @@ _CSS = """
 /* ================================================================
    GLOBAL TYPOGRAPHY
    ================================================================ */
-html, body, [class*="css"], .stMarkdown, p, li, span {
+html, body, [class*="css"], .stMarkdown, p, li {
     font-family: 'DM Sans', sans-serif !important;
     -webkit-font-smoothing: antialiased;
+}
+
+/* Preserve Material Icons/Symbols font for Streamlit icons */
+[data-testid="stIconMaterial"],
+.material-symbols-rounded,
+[class*="material"] {
+    font-family: 'Material Symbols Rounded' !important;
 }
 
 /* ================================================================
