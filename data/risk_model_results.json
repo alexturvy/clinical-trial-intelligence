@@ -1,0 +1,378 @@
+{
+  "n_samples": 9447,
+  "directional_effects": {
+    "text_length": -0.0019286732086451098,
+    "word_count": 0.01560626350874141,
+    "exclusion_mentions": 0.49000125625370095,
+    "inclusion_mentions": 0.6311114862306162,
+    "numbered_criteria": 0.007071925438390206,
+    "biomarker_mentions": 0.3486750789885529,
+    "genetic_mentions": 0.7700324592789953,
+    "washout_mentions": -0.49927937829932034,
+    "organ_fn_mentions": 0.14198632206281037,
+    "lab_value_count": 0.14002655669690564,
+    "time_constraint_count": -0.7800767260381383,
+    "procedure_mentions": 0.6603815232416465,
+    "prior_therapy_mentions": 1.3616156593097306,
+    "comorbidity_exclusions": 0.6710926016657429,
+    "performance_status_req": 2.968945390714538,
+    "contraception_req": -1.8253582754842197
+  },
+  "gb_importances": {
+    "text_length": 0.13074596320544823,
+    "word_count": 0.13921790094184272,
+    "exclusion_mentions": 0.03302754794978504,
+    "inclusion_mentions": 0.08194604326574483,
+    "numbered_criteria": 0.05681750278953014,
+    "biomarker_mentions": 0.05177298625663416,
+    "genetic_mentions": 0.037176727525160366,
+    "washout_mentions": 0.03530659160366835,
+    "organ_fn_mentions": 0.06320387708224046,
+    "lab_value_count": 0.09279553405562213,
+    "time_constraint_count": 0.09687531165479923,
+    "procedure_mentions": 0.04155732441541,
+    "prior_therapy_mentions": 0.045146949996763656,
+    "comorbidity_exclusions": 0.04022031593463096,
+    "performance_status_req": 0.04209743063246258,
+    "contraception_req": 0.01209199269025712
+  },
+  "baselines": [
+    {
+      "therapeutic_area": "Anti-Infective",
+      "phase": "Early Phase 1",
+      "median": 25.35,
+      "count": 30
+    },
+    {
+      "therapeutic_area": "Anti-Infective",
+      "phase": "Not Applicable",
+      "median": 15.15,
+      "count": 608
+    },
+    {
+      "therapeutic_area": "Anti-Infective",
+      "phase": "Phase 1",
+      "median": 13.4,
+      "count": 131
+    },
+    {
+      "therapeutic_area": "Anti-Infective",
+      "phase": "Phase 1/Phase 2",
+      "median": 21.5,
+      "count": 41
+    },
+    {
+      "therapeutic_area": "Anti-Infective",
+      "phase": "Phase 2",
+      "median": 24.1,
+      "count": 154
+    },
+    {
+      "therapeutic_area": "Anti-Infective",
+      "phase": "Phase 2/Phase 3",
+      "median": 21.9,
+      "count": 35
+    },
+    {
+      "therapeutic_area": "Anti-Infective",
+      "phase": "Phase 3",
+      "median": 27.0,
+      "count": 145
+    },
+    {
+      "therapeutic_area": "Anti-Infective",
+      "phase": "Phase 4",
+      "median": 23.35,
+      "count": 164
+    },
+    {
+      "therapeutic_area": "Anti-Viral",
+      "phase": "Early Phase 1",
+      "median": 20.4,
+      "count": 31
+    },
+    {
+      "therapeutic_area": "Anti-Viral",
+      "phase": "Not Applicable",
+      "median": 18.0,
+      "count": 752
+    },
+    {
+      "therapeutic_area": "Anti-Viral",
+      "phase": "Phase 1",
+      "median": 13.0,
+      "count": 240
+    },
+    {
+      "therapeutic_area": "Anti-Viral",
+      "phase": "Phase 1/Phase 2",
+      "median": 19.7,
+      "count": 66
+    },
+    {
+      "therapeutic_area": "Anti-Viral",
+      "phase": "Phase 2",
+      "median": 19.0,
+      "count": 231
+    },
+    {
+      "therapeutic_area": "Anti-Viral",
+      "phase": "Phase 2/Phase 3",
+      "median": 19.05,
+      "count": 32
+    },
+    {
+      "therapeutic_area": "Anti-Viral",
+      "phase": "Phase 3",
+      "median": 15.4,
+      "count": 162
+    },
+    {
+      "therapeutic_area": "Anti-Viral",
+      "phase": "Phase 4",
+      "median": 20.9,
+      "count": 104
+    },
+    {
+      "therapeutic_area": "CNS",
+      "phase": "Early Phase 1",
+      "median": 19.700000000000003,
+      "count": 30
+    },
+    {
+      "therapeutic_area": "CNS",
+      "phase": "Not Applicable",
+      "median": 15.0,
+      "count": 1068
+    },
+    {
+      "therapeutic_area": "CNS",
+      "phase": "Phase 1",
+      "median": 20.9,
+      "count": 83
+    },
+    {
+      "therapeutic_area": "CNS",
+      "phase": "Phase 1/Phase 2",
+      "median": 23.45,
+      "count": 34
+    },
+    {
+      "therapeutic_area": "CNS",
+      "phase": "Phase 2",
+      "median": 27.0,
+      "count": 121
+    },
+    {
+      "therapeutic_area": "CNS",
+      "phase": "Phase 2/Phase 3",
+      "median": 36.5,
+      "count": 9
+    },
+    {
+      "therapeutic_area": "CNS",
+      "phase": "Phase 3",
+      "median": 39.9,
+      "count": 63
+    },
+    {
+      "therapeutic_area": "CNS",
+      "phase": "Phase 4",
+      "median": 21.0,
+      "count": 44
+    },
+    {
+      "therapeutic_area": "Cardiology",
+      "phase": "Early Phase 1",
+      "median": 28.9,
+      "count": 26
+    },
+    {
+      "therapeutic_area": "Cardiology",
+      "phase": "Not Applicable",
+      "median": 17.65,
+      "count": 946
+    },
+    {
+      "therapeutic_area": "Cardiology",
+      "phase": "Phase 1",
+      "median": 13.3,
+      "count": 45
+    },
+    {
+      "therapeutic_area": "Cardiology",
+      "phase": "Phase 1/Phase 2",
+      "median": 29.0,
+      "count": 28
+    },
+    {
+      "therapeutic_area": "Cardiology",
+      "phase": "Phase 2",
+      "median": 24.0,
+      "count": 97
+    },
+    {
+      "therapeutic_area": "Cardiology",
+      "phase": "Phase 2/Phase 3",
+      "median": 34.0,
+      "count": 15
+    },
+    {
+      "therapeutic_area": "Cardiology",
+      "phase": "Phase 3",
+      "median": 35.0,
+      "count": 88
+    },
+    {
+      "therapeutic_area": "Cardiology",
+      "phase": "Phase 4",
+      "median": 24.6,
+      "count": 98
+    },
+    {
+      "therapeutic_area": "Endocrinology",
+      "phase": "Early Phase 1",
+      "median": 21.75,
+      "count": 14
+    },
+    {
+      "therapeutic_area": "Endocrinology",
+      "phase": "Not Applicable",
+      "median": 18.0,
+      "count": 281
+    },
+    {
+      "therapeutic_area": "Endocrinology",
+      "phase": "Phase 1",
+      "median": 25.049999999999997,
+      "count": 74
+    },
+    {
+      "therapeutic_area": "Endocrinology",
+      "phase": "Phase 1/Phase 2",
+      "median": 33.900000000000006,
+      "count": 36
+    },
+    {
+      "therapeutic_area": "Endocrinology",
+      "phase": "Phase 2",
+      "median": 34.2,
+      "count": 114
+    },
+    {
+      "therapeutic_area": "Endocrinology",
+      "phase": "Phase 2/Phase 3",
+      "median": 37.9,
+      "count": 10
+    },
+    {
+      "therapeutic_area": "Endocrinology",
+      "phase": "Phase 3",
+      "median": 35.4,
+      "count": 57
+    },
+    {
+      "therapeutic_area": "Endocrinology",
+      "phase": "Phase 4",
+      "median": 24.3,
+      "count": 36
+    },
+    {
+      "therapeutic_area": "Metabolic Disease",
+      "phase": "Early Phase 1",
+      "median": 19.7,
+      "count": 21
+    },
+    {
+      "therapeutic_area": "Metabolic Disease",
+      "phase": "Not Applicable",
+      "median": 13.9,
+      "count": 950
+    },
+    {
+      "therapeutic_area": "Metabolic Disease",
+      "phase": "Phase 1",
+      "median": 7.4,
+      "count": 149
+    },
+    {
+      "therapeutic_area": "Metabolic Disease",
+      "phase": "Phase 1/Phase 2",
+      "median": 21.3,
+      "count": 25
+    },
+    {
+      "therapeutic_area": "Metabolic Disease",
+      "phase": "Phase 2",
+      "median": 18.8,
+      "count": 135
+    },
+    {
+      "therapeutic_area": "Metabolic Disease",
+      "phase": "Phase 2/Phase 3",
+      "median": 17.4,
+      "count": 11
+    },
+    {
+      "therapeutic_area": "Metabolic Disease",
+      "phase": "Phase 3",
+      "median": 25.7,
+      "count": 99
+    },
+    {
+      "therapeutic_area": "Metabolic Disease",
+      "phase": "Phase 4",
+      "median": 19.95,
+      "count": 80
+    },
+    {
+      "therapeutic_area": "Oncology",
+      "phase": "Early Phase 1",
+      "median": 33.35,
+      "count": 70
+    },
+    {
+      "therapeutic_area": "Oncology",
+      "phase": "Not Applicable",
+      "median": 24.0,
+      "count": 537
+    },
+    {
+      "therapeutic_area": "Oncology",
+      "phase": "Phase 1",
+      "median": 32.0,
+      "count": 187
+    },
+    {
+      "therapeutic_area": "Oncology",
+      "phase": "Phase 1/Phase 2",
+      "median": 39.25,
+      "count": 148
+    },
+    {
+      "therapeutic_area": "Oncology",
+      "phase": "Phase 2",
+      "median": 36.2,
+      "count": 502
+    },
+    {
+      "therapeutic_area": "Oncology",
+      "phase": "Phase 2/Phase 3",
+      "median": 49.8,
+      "count": 26
+    },
+    {
+      "therapeutic_area": "Oncology",
+      "phase": "Phase 3",
+      "median": 48.0,
+      "count": 134
+    },
+    {
+      "therapeutic_area": "Oncology",
+      "phase": "Phase 4",
+      "median": 24.0,
+      "count": 30
+    }
+  ],
+  "residual_std": 17.406318371017523
+}

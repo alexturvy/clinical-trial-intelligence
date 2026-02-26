@@ -1,0 +1,119 @@
+{
+  "n_samples": 9447,
+  "results": {
+    "structured": {
+      "Linear Regression": {
+        "mean": -0.026115228566448656,
+        "std": 0.14517840897178258
+      },
+      "Random Forest": {
+        "mean": 0.03826507482824015,
+        "std": 0.13285053448757425
+      },
+      "Gradient Boosting": {
+        "mean": 0.034304498248583594,
+        "std": 0.14865876334656059
+      }
+    },
+    "text_enriched": {
+      "Linear Regression": {
+        "mean": 0.1754302691543019,
+        "std": 0.038021838029532636
+      },
+      "Random Forest": {
+        "mean": 0.21534212511415163,
+        "std": 0.0357593078300272
+      },
+      "Gradient Boosting": {
+        "mean": 0.24282686084774543,
+        "std": 0.03302122033291778
+      }
+    },
+    "text_only": {
+      "Linear Regression": {
+        "mean": 0.14273425841994689,
+        "std": 0.036787704640861625
+      },
+      "Random Forest": {
+        "mean": 0.14206178822482313,
+        "std": 0.03977644510975729
+      },
+      "Gradient Boosting": {
+        "mean": 0.16090161155125665,
+        "std": 0.03332040208267585
+      }
+    }
+  },
+  "feature_importances": {
+    "enrollment": 0.21274641849379006,
+    "num_countries": 0.016142893927996838,
+    "Text Length": 0.022478613829446957,
+    "Word Count": 0.015411303432580247,
+    "Exclusion Criteria Count": 0.0013694471490658302,
+    "Inclusion Criteria Count": 0.010766937879220418,
+    "Numbered Criteria": 0.00012353582404749,
+    "Biomarker Terminology": 0.0028498393630693557,
+    "Genetic Testing Terms": 0.0022062280606484686,
+    "Washout Period Language": 3.1782905333503215e-05,
+    "Organ Function Tests": 0.0016894055815747607,
+    "Lab Value Thresholds": 0.01773066909185501,
+    "Time Constraints": 0.0027749835421955,
+    "Procedure Requirements": 0.014664931848744891,
+    "Prior Therapy Restrictions": 0.016951023578512164,
+    "Comorbidity Exclusions": 0.0010399674935912117,
+    "Performance Status Requirement": 0.21420635943499852,
+    "Contraception Requirement": 0.0007885587900899378,
+    "Study / Patients Terms": 0.006163519996592203,
+    "Patients / Criteria Patients Terms": 0.01831127461125695,
+    "Patients / Therapy Terms": 0.05397956312365832,
+    "Screening & Enrollment": 0.07332111558731111,
+    "Patients / Study Terms": 0.09677915705849059,
+    "Disorder / Covid Terms": 0.003638735545924229,
+    "Participants / Patients Terms": 0.00599523122047177,
+    "Patient / Participants Terms": 0.009381271142974474,
+    "Patient / Covid Terms": 0.016005585347717143,
+    "Patient / Having Terms": 0.018013313659516583,
+    "Having / Participants Terms": 0.009508150872459029,
+    "Metabolic Conditions": 0.025756222176182064,
+    "Covid / Patient Terms": 0.0062419617808801954,
+    "Subjects / Participants Terms": 0.005982681791338162,
+    "Infection & Immunity": 0.005678179836510681,
+    "Disease / Subject Terms": 0.008935529612568717,
+    "Subjects / Individuals Terms": 0.013285530516192526,
+    "Phase: Not Applicable": 0.009979686088815167,
+    "Phase: Phase 1": 0.006270344146948373,
+    "Phase: Phase 1/Phase 2": 0.001312410585453404,
+    "Phase: Phase 2": 0.004155463446761325,
+    "Phase: Phase 2/Phase 3": 0.0,
+    "Phase: Phase 3": 0.0016322191047987967,
+    "Phase: Phase 4": 0.00017139873233660202,
+    "TA: Anti-Viral": 0.0,
+    "TA: CNS": 0.0016979706912711849,
+    "TA: Cardiology": 0.0,
+    "TA: Endocrinology": 0.0,
+    "TA: Metabolic Disease": 0.0007805801146343103,
+    "TA: Oncology": 0.04305000298217495
+  },
+  "component_labels": [
+    "Study / Patients Terms",
+    "Patients / Criteria Patients Terms",
+    "Patients / Therapy Terms",
+    "Screening & Enrollment",
+    "Patients / Study Terms",
+    "Disorder / Covid Terms",
+    "Participants / Patients Terms",
+    "Screening & Enrollment",
+    "Patient / Participants Terms",
+    "Patient / Covid Terms",
+    "Patient / Having Terms",
+    "Screening & Enrollment",
+    "Having / Participants Terms",
+    "Metabolic Conditions",
+    "Covid / Patient Terms",
+    "Metabolic Conditions",
+    "Subjects / Participants Terms",
+    "Infection & Immunity",
+    "Disease / Subject Terms",
+    "Subjects / Individuals Terms"
+  ]
+}
