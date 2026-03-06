@@ -2,7 +2,7 @@ name: Keep Streamlit alive
 
 on:
   schedule:
-    - cron: '0 12 * * *' # daily at noon UTC
+    - cron: '0 */2 * * *' # every 2 hours
   workflow_dispatch: # allow manual trigger
 
 jobs:
@@ -13,9 +13,3 @@ jobs:
     steps:
       - name: Ping Streamlit app
         run: curl -sfo /dev/null https://clinical-trial-intelligence.streamlit.app
-      - uses: actions/checkout@v4
-      - run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit --allow-empty -m "chore: keep Streamlit alive"
-          git push
